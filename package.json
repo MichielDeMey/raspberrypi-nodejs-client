@@ -1,0 +1,23 @@
+{
+  "name": "raspberrypi-nodejs-client",
+  "version": "0.1.0",
+  "description": "A library in NodeJS, geared for RPI development that provides access to the ATT IOT platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MichielDeMey/raspberrypi-nodejs-client.git"
+  },
+  "author": "Michiel De Mey <de.mey.michiel@gmail.com> (http://michiel.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichielDeMey/raspberrypi-nodejs-client/issues"
+  },
+  "homepage": "https://github.com/MichielDeMey/raspberrypi-nodejs-client",
+  "dependencies": {
+    "mqtt": "^0.3.13",
+    "request": "^2.48.0"
+  }
+}
